@@ -1,0 +1,16 @@
+/* SoundLink PoC - グローバルリセット */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d0d1a;
+}
+
+button:focus-visible {
+  outline: 2px solid #e94560;
+  outline-offset: 2px;
+}
